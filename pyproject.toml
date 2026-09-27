@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "enterprise-warehouse-cutover"
+version = "1.0.0"
+description = "Dual-write parity verification engine for zero-drift warehouse schema cutovers"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "Nahom Abera" }
+]
+keywords = [
+    "data-engineering",
+    "analytics-engineering",
+    "dbt",
+    "duckdb",
+    "cdc",
+    "event-sourcing",
+    "data-migration",
+    "parity-testing",
+    "dual-write"
+]
+dependencies = [
+    "duckdb>=1.1.0",
+    "pyarrow>=14.0.0",
+    "pytest>=7.0.0",
+]
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+testpaths = ["tests"]
+python_files = ["test_*.py"]
