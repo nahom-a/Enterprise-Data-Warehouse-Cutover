@@ -1,0 +1,31 @@
+version: 2
+
+sources:
+  - name: legacy
+    schema: legacy
+    tables:
+      - name: customers
+      - name: orders
+      - name: order_lines
+      - name: payments
+      - name: order_lifecycle
+      - name: promo_applications
+      - name: shipments
+      - name: products
+      - name: fx_rates
+
+  - name: platform
+    schema: platform
+    tables:
+      - name: customer_versions
+      - name: customer_status_events
+      - name: orders
+      - name: order_lines
+      - name: payment_events
+      - name: order_lifecycle_events
+      - name: order_promo_applications
+      - name: shipments
+      - name: products
+      - name: currencies
+      - name: fx_daily
+      - name: extract_meta
