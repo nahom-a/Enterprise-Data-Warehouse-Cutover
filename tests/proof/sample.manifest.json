@@ -1,0 +1,23 @@
+{
+  "legacy/customers.parquet": "be0ceb45afd77d89f61a6230954f257aa877598a9872c2a8ab61891b1467eead",
+  "legacy/fx_rates.parquet": "3698e3a670ebeb0c96bf2660c9307a5544d097a1b83b618385ce94822e47b20c",
+  "legacy/order_lifecycle.parquet": "f5778f504bda9034ebd890c54645b8ec6e72b51bcf8a9ed50873cc5d3b3697de",
+  "legacy/order_lines.parquet": "c1b85b0df7ba3d854cb8e80427cd603d088d423c72caba520ed29491c33c7c58",
+  "legacy/orders.parquet": "a264ad015b4ae94858e2d4f33cae8007a78f9a8b4df48dcc5a8f28b9b37f7afa",
+  "legacy/payments.parquet": "753b26cbb93902894b2ac1d8b4c99625717c567b19ffe1297eeebb755b2e2949",
+  "legacy/products.parquet": "213a431b15ba62db895d9489ff004efd2dccea26b028fe06be7fecc23142293a",
+  "legacy/promo_applications.parquet": "dbe712b60ffc83f7ee0b5f5327a20531697dc8f57cc88798d37455f37e81abdf",
+  "legacy/shipments.parquet": "ba6fefad79ea05df3dc14c909eb2cb99394eb62a7c717173b4b86f0baf404b7a",
+  "platform/currencies.parquet": "8c8ae644bc9c17ea93cf42f1828a0ebfb14ba2368db8b519887c6cc662f1c74d",
+  "platform/customer_status_events.parquet": "4621c6499a3db0fc86350a85338da3927e0c4ee0a97b06aaa107ee6264cf2f0e",
+  "platform/customer_versions.parquet": "9de69950cf0b663a30e64063b85ce40e97c8efd9c2fe2da399fab6e73778a83e",
+  "platform/extract_meta.parquet": "ac4aa33917ee5824d7dafb325a1e7b8b9f56d7502555de1492b6bdc0474f6d4f",
+  "platform/fx_daily.parquet": "da8ce1b04210cb4f1a311e6cc0314fd5b47a6d8425d376f633868eddbc24ba3b",
+  "platform/order_lifecycle_events.parquet": "85a3a776c4fa5bb4626c42d0a4da2818c4ebae69818cfbe4996a4e1408ed8b4b",
+  "platform/order_lines.parquet": "6ff524245a250e56617c9b9b68e23b0c19cc0b2fd84d468fb563aa326bde7efd",
+  "platform/order_promo_applications.parquet": "b88f868310d7a0ea70469eb746980eb237e381a67eb504fab2270d5e5036bba2",
+  "platform/orders.parquet": "48e848c6235025735ec1ca1e1a1505f487ef3ad41a30f4129db2061fce711607",
+  "platform/payment_events.parquet": "bdc4778fed972cc990d8311f23ecd83f209a96b38ccc6daaf3ab775b33abe7ac",
+  "platform/products.parquet": "f450901ca0d2276ac15ce3b8a277b2111d8c41da3701a9c000ede172ba3d3fbe",
+  "platform/shipments.parquet": "6a0244227641559d88ec3c0da8f3e6e3d860720060bcec925bdeb2c505cca928"
+}
